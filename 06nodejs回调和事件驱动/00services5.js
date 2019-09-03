@@ -6,9 +6,11 @@ var http=require('http');
 var path = require('path');/*nodejs自带模块*/
 //url模块
 var url= require('url');
-
-var mimeModel=require('./model/getmime');
-// console.log(mime.getMime('.html'))  //获取文件类型
+//引入扩展名的方法是在文件里面获取到的
+var mimeModel=require('./model/getmimefromfile');
+mimeModel.getMime(fs,'.css',function (data) {
+    console.log(data);
+})  //获取文件类型
 
 http.createServer(function (req,res) {
 
@@ -34,10 +36,13 @@ http.createServer(function (req,res) {
                     res.end()//结束响应
                 })
             }else{
-                var mime=mimeModel.getMime(exname)/*获取文件类型*/
-                res.writeHead(200,{"Content-Type":""+mime+"; charset=utf-8"});
-                res.write(data);
-                res.end()//结束响应
+                var mime=mimeModel.getMime(fs,exname,function (mime) {
+                    console.log(mime)
+                    res.writeHead(200,{"Content-Type":""+mime+"; charset=utf-8"});
+                    res.write(data);
+                    res.end()//结束响应
+                })/*获取文件类型*/
+
             }
         }
         )}

@@ -7,8 +7,8 @@ var path = require('path');/*nodejs自带模块*/
 //url模块
 var url= require('url');
 
-var mimeModel=require('./model/getmime');
-// console.log(mime.getMime('.html'))  //获取文件类型
+var mimeModel=require('./model/getmimefromfile');
+console.log(mimeModel.getMime(fs,'.css'))  //获取文件类型
 
 http.createServer(function (req,res) {
 

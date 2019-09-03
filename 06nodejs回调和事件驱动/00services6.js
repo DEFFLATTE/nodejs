@@ -7,8 +7,11 @@ var path = require('path');/*nodejs自带模块*/
 //url模块
 var url= require('url');
 
-var mimeModel=require('./model/getmime');
-// console.log(mime.getMime('.html'))  //获取文件类型
+var events = require('events');
+var EventEmitter = new events.EventEmitter();
+//引入扩展名的方法是在文件里面获取到的
+var mimeModel=require('./model/getmimefromfile_events');
+// mimeModel.getMime(fs,EventEmitter,'.css')  //获取文件类型
 
 http.createServer(function (req,res) {
 
@@ -34,10 +37,12 @@ http.createServer(function (req,res) {
                     res.end()//结束响应
                 })
             }else{
-                var mime=mimeModel.getMime(exname)/*获取文件类型*/
-                res.writeHead(200,{"Content-Type":""+mime+"; charset=utf-8"});
-                res.write(data);
-                res.end()//结束响应
+                mimeModel.getMime(fs,EventEmitter,exname)/*调用获取数据的方法*/
+                EventEmitter.on('to_mime',function (mime) {
+                    res.writeHead(200,{"Content-Type":""+mime+"; charset=utf-8"});
+                    // res.write(data);//先end然后才能监听到事件，这时候不能write了
+                    res.end(data)//结束响应
+                })
             }
         }
         )}
