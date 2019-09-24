@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e378fcac-12ff-4f98-b36e-11ce0dc27a38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/nodejs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejs get post ejs/00services1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejs get post ejs/00services2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/00services1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/00services2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/00services3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/get post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/login.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/mime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/model/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/node_modules/ejs/Jakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/node_modules/ejs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/node_modules/ejs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/node_modules/ejs/ejs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/node_modules/ejs/ejs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/node_modules/ejs/lib/ejs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/node_modules/ejs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/node_modules/ejs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/static/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/static/imgs/head.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/static/zyb.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/views/form.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/views/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/views/login.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07nodejsgetpostejs/views/register.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/00services1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/00services2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/00services3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/02router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/get post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/login.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/mime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/model/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/model/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/node_modules/ejs/Jakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/node_modules/ejs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/node_modules/ejs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/node_modules/ejs/ejs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/node_modules/ejs/ejs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/node_modules/ejs/lib/ejs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/node_modules/ejs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/node_modules/ejs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/static/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/static/imgs/head.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/static/zyb.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/views/form.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/views/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/views/login.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08nodejs router/views/register.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpUrl/.idea/httpUrl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01httpUrl/.idea/httpUrl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpUrl/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01httpUrl/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpUrl/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01httpUrl/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpUrl/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01httpUrl/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpUrl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01httpUrl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpUrl/03supervisor.js" beforeDir="false" afterPath="$PROJECT_DIR$/01httpUrl/03supervisor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpUrl/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/01httpUrl/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpUrl/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/01httpUrl/url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/00services1.js" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/00services1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/00services2.js" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/00services2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/00services3.js" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/00services3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/00services4.js" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/00services4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/00services5.js" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/00services5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/mime.json" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/mime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/model/getmime.js" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/model/getmime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/model/getmimefromfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/model/getmimefromfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/model/getmimefromfilebac.js" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/model/getmimefromfilebac.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/static/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/static/imgs/head.gif" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/imgs/head.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs静态web服务/static/zyb.zip" beforeDir="false" afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/zyb.zip" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08nodejs router/get post.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08nodejs router/model/model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08nodejs router/02router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="ejs" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>res.write</find>
+      <find>11111</find>
+      <find>getMime</find>
+      <find>console</find>
+      <find>method</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Administrator\Desktop\nodejs\nodejs</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/nodejs静态web服务/static/js/index.js" />
+        <option value="$PROJECT_DIR$/nodejs静态web服务/00services3.js" />
+        <option value="$PROJECT_DIR$/nodejs静态web服务/00services4.js" />
+        <option value="$PROJECT_DIR$/nodejs静态web服务/model/getmimefromfile.js" />
+        <option value="$PROJECT_DIR$/nodejs静态web服务/00services5.js" />
+        <option value="$PROJECT_DIR$/nodejs静态web服务/static/index.html" />
+        <option value="$PROJECT_DIR$/06nodejs回调和事件驱动/01非阻塞io.js" />
+        <option value="$PROJECT_DIR$/06nodejs回调和事件驱动/02回调函数.js" />
+        <option value="$PROJECT_DIR$/06nodejs回调和事件驱动/nodejs事件驱动01.js" />
+        <option value="$PROJECT_DIR$/06nodejs回调和事件驱动/04nodejs事件驱动获取数据.js" />
+        <option value="$PROJECT_DIR$/06nodejs回调和事件驱动/00services5.js" />
+        <option value="$PROJECT_DIR$/06nodejs回调和事件驱动/model/getmimefromfile.js" />
+        <option value="$PROJECT_DIR$/06nodejs回调和事件驱动/model/getmimefromfile_events.js" />
+        <option value="$PROJECT_DIR$/06nodejs回调和事件驱动/00services6.js" />
+        <option value="$PROJECT_DIR$/07nodejs get post ejs/model/router.js" />
+        <option value="$PROJECT_DIR$/07nodejs get post ejs/00services1.js" />
+        <option value="$PROJECT_DIR$/07nodejs get post ejs/00services2.js" />
+        <option value="$PROJECT_DIR$/07nodejsgetpostejs/views/index.html" />
+        <option value="$PROJECT_DIR$/07nodejsgetpostejs/00services3.js" />
+        <option value="$PROJECT_DIR$/07nodejsgetpostejs/views/login.ejs" />
+        <option value="$PROJECT_DIR$/07nodejsgetpostejs/views/register.ejs" />
+        <option value="$PROJECT_DIR$/07nodejsgetpostejs/views/form.ejs" />
+        <option value="$PROJECT_DIR$/07nodejsgetpostejs/get post.js" />
+        <option value="$PROJECT_DIR$/08nodejs router/model/model.js" />
+        <option value="$PROJECT_DIR$/08nodejs router/02router.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/nodejs.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="4" />
+    <option name="y" value="3" />
+    <option name="width" value="1940" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/07nodejs get post ejs" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\nodejs\nodejs" />
+      <recent name="C:\Users\Administrator\Desktop\nodejs\nodejs\07nodejsgetpostejs\views" />
+      <recent name="C:\Users\Administrator\Desktop\nodejs\nodejs\07nodejsgetpostejs" />
+      <recent name="C:\Users\Administrator\Desktop\nodejs\nodejs\07nodejs get post ejs" />
+      <recent name="C:\Users\Administrator\Desktop\nodejs\nodejs\06nodejs回调和事件驱动" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\nodejs\nodejs\nodejs静态web服务\static\imgs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.02router.js">
+    <configuration name="00services3.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="00services3.js" working-dir="$PROJECT_DIR$/08nodejs router">
+      <method v="2" />
+    </configuration>
+    <configuration name="02router.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="02router.js" working-dir="$PROJECT_DIR$/08nodejs router">
+      <method v="2" />
+    </configuration>
+    <configuration name="get post.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="get post.js" working-dir="$PROJECT_DIR$/08nodejs router">
+      <method v="2" />
+    </configuration>
+    <configuration name="get post.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="get post.js" working-dir="$PROJECT_DIR$/07nodejsgetpostejs">
+      <method v="2" />
+    </configuration>
+    <configuration name="model.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="model.js" working-dir="$PROJECT_DIR$/08nodejs router/model">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.02router.js" />
+        <item itemvalue="Node.js.model.js" />
+        <item itemvalue="Node.js.get post.js (1)" />
+        <item itemvalue="Node.js.00services3.js (1)" />
+        <item itemvalue="Node.js.get post.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e378fcac-12ff-4f98-b36e-11ce0dc27a38" name="Default Changelist" comment="" />
+      <created>1567474476903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567474476903</updated>
+      <workItem from="1567474478112" duration="14649000" />
+      <workItem from="1567560405576" duration="1703000" />
+      <workItem from="1567645978927" duration="4276000" />
+      <workItem from="1567673561767" duration="5468000" />
+      <workItem from="1567762325430" duration="1832000" />
+      <workItem from="1569290521025" duration="513000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28441000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33147943" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24026696" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00services2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../职业病.json" />
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00services3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00services1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/static/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/model/getmime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/model/getmimefromfilebac.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/mime.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00services4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/model/getmimefromfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00services5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs回调和事件驱动/mime.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs回调和事件驱动/01非阻塞io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs回调和事件驱动/02回调函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs回调和事件驱动/nodejs事件驱动01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs回调和事件驱动/04nodejs事件驱动获取数据.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs回调和事件驱动/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs回调和事件驱动/model/getmimefromfile_events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejs get post ejs/static/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/06nodejs回调和事件驱动/model/getmimefromfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejs get post ejs/mime.json" />
+    <entry file="file://$PROJECT_DIR$/06nodejs回调和事件驱动/00services6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382">
+          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejs get post ejs/00services1.js" />
+    <entry file="file://$PROJECT_DIR$/06nodejs回调和事件驱动/00services5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejs get post ejs/model/router.js" />
+    <entry file="file://$PROJECT_DIR$/07nodejs get post ejs/00services2.js" />
+    <entry file="file://$PROJECT_DIR$/01httpUrl/url.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/views/indec.ejs" />
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/00services1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/00services2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/00services3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/views/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/views/register.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/views/form.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/login.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs router/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07nodejsgetpostejs/get post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs router/model/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs router/00services3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs router/00services2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs router/00services1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs router/get post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs router/model/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs router/02router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

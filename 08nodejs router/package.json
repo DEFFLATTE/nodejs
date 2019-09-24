@@ -1,0 +1,14 @@
+{
+  "name": "07nodejsgetpostejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "00services1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1"
+  }
+}
