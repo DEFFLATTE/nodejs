@@ -1,5 +1,5 @@
 
-// 1.判断服务器上面有没有upload目录，如果没有创建这个目录，如果有不作操作。
+// 1.判断服务器上面有没有upload目录，如果没有创建这个目录，如果有不作操作。（图片上传）
 const fs = require('fs');
 var path = './upload'
 fs.stat('./upload',(err,data)=>{
