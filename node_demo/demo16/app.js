@@ -6,7 +6,7 @@ const ejs = require('ejs');
 // 注册web服务
 http.createServer(app).listen(9999);
 
-app.static("public");
+app.static("public");//修改默认静态web目录
 
 console.log('Server running at http://127.0.0.1:9999/');
 
