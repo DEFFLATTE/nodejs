@@ -1,7 +1,0 @@
-{
-  "name": "09nodejs_mongodb",
-  "version": "1.0.0",
-  "dependencies": {
-    "mongodb": "^2.2.33"
-  }
-}

@@ -1,5 +1,0 @@
-username=admin&password=123456
-username=zhouhangfeng&password=123456
-username=1111&password=111
-username=111&password=222
-username=zhouhangfeng&password=1020812251

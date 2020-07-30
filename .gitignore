@@ -2,3 +2,4 @@
 node_modules/
 dist/
 npm-debug.log
+node_demo/express01/package-lock.json

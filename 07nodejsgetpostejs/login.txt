@@ -1,2 +1,0 @@
-username=admin&password=123456
-username=zhouhangfeng&password=123456
