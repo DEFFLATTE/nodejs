@@ -1,6 +1,9 @@
 const mongoose = require("./db");
 var newsSchema = mongoose.Schema({
-    title:String,
+    title:{
+        type:String,
+        trim:true   //定义mongoose模式修饰符 去掉空格
+    },
     author:String,
     pic:String,
     content:String,
